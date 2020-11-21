@@ -131,6 +131,10 @@ img.blog-index-img-4 {
     margin-bottom: 10%;
       }
 
+img.blog-body-img {
+  max-width: 40%;
+}
+
 /* Blog Entry Page Styling */
 
 p.blog-post-preview-text {
