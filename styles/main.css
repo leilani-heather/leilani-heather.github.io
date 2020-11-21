@@ -1,0 +1,333 @@
+/* Main styling */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  cursor: crosshair;
+}
+
+html {
+  font-family: 'Xanh Mono', monospace;
+  font-size: 16px;
+  color: #000000;
+  background-color: #e6f1fc;
+  }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Xanh Mono', monospace;
+  color: #000000;
+  }
+
+p, span, button {
+  font-family: 'Istok Web', sans-serif;
+  color: #000000;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul li {
+  list-style-type: none;
+  font-family: 'Istok Web', sans-serif;
+  text-decoration: underline;
+  color: #000000;
+  text-align: right;
+}
+
+/* links */
+
+a:link {
+  text-decoration: underline;
+  color: #000000;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #000000;
+}
+
+a:active {
+  text-decoration: underline;
+  color: #000000;
+}
+
+a:visited {
+  text-decoration: underline;
+  color: #000000;
+}
+
+
+/* Blog Index Page Styling */
+
+p.blog-index-preview-text {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+h2.blog-index-title {
+  text-align: center;
+}
+
+h5.blog-index-category {
+  text-align: center;
+  
+}
+
+h5.blog-index-readmore {
+  text-align: center;
+}
+
+/* Gif Styling */
+
+#moving-image {
+  max-width: 50%;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0%;
+  text-align: center;
+}
+
+/* Master Image Styling */
+
+img.blog-index-img-1 {
+  max-width: 60%;
+  display: block;
+  margin-top: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10%;
+}
+
+img.blog-index-img-2 {
+  max-width: 60%;
+  display: block;
+  margin-top: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10%;
+  }
+
+img.blog-index-img-3 {
+  max-width: 60%;
+  display: block;
+  margin-top: 0%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10%;
+    }
+
+img.blog-index-img-4 {
+    max-width: 60%;
+    display: block;
+    margin-top: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+      }
+
+/* Blog Entry Page Styling */
+
+p.blog-post-preview-text {
+
+  text-align: center;
+  display: block;
+  margin-top: 0%;
+  margin-left: 0%;
+  margin-right: 30%;
+}
+
+p.blog-post-text {
+
+  display: block;
+  text-align: center;
+  margin-top: 5%;
+  margin-left: 0%;
+  margin-right: 30%;
+} 
+
+p.blog-post-text {
+
+  display: block;
+  text-align: center;
+  margin-top: 5%;
+  margin-left: 0%;
+  margin-right: 30%;
+} 
+
+p.strong-text {
+  font-weight: bold;
+  display: block;
+  text-align: center;
+  margin-top: 5%;
+  margin-left: 0%;
+  margin-right: 30%;
+} 
+
+h2.blog-post-title {
+  
+  display: block;
+  text-align: center;
+  margin-top: 0%;
+  margin-left: 0%;
+  margin-right: 30%;
+}
+
+
+h5.blog-post-category {
+  
+  display: block;
+  text-align: center;
+  margin-top: 10%;
+  margin-left: 0%;
+  margin-right: 30%;
+}
+
+h5.blog-post-readmore {
+
+  display: block;
+  text-align: center;
+  margin-top: 10%;
+  margin-left: 0%;
+  margin-right: 30%;
+}
+
+/* Index Home Page Styling*/
+
+img.bg {
+  background-image: url("assets/jantar-mantar-jaipur.jpg");
+  max-width: 50%;
+  display: block;
+  margin-top: 0%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0%;
+}
+
+/* Column Styling */
+
+.grid {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.row {
+  width: 100%;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.col-1 {
+  width: 8.33%;
+}
+
+.col-2 {
+  width: 16.66%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+.col-5 {
+  width: 41.66%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.33%;
+}
+
+.col-8 {
+  width: 66.66%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.33%;
+}
+
+.col-11 {
+  width: 91.66%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+/* Top Navigation Styling */
+
+.logo {
+  max-width: 70%;
+  margin-left: 40%;
+  margin-top: 15%;
+}
+
+.nav-menu {
+  float: right;
+  text-align: right;
+  margin-right: 40%;
+  margin-top: 15%;
+}
+
+/* Footer Navigation Styling */
+
+h6.footer {
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+/* Double Sidebar Navigation Styling */
+/* Unsure what to put into these? */
+
+ #contents {
+  }
+
+  #mainContents {
+  }
+
+#sidebar1 {
+float: left;
+position: -webkit-sticky;
+position: sticky;
+top: 60%;
+transform: rotate(270deg);
+margin-left: 2%;
+margin-right: auto;
+}
+
+#sidebar2 {
+  float: right;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 60%;
+  transform: rotate(90deg);
+  margin-left: auto;
+  margin-right: 2%;
+}
+
+/* Youtube Videos */
+
+.youtube-video {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
