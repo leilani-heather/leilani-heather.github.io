@@ -2,92 +2,129 @@
 <!DOCTYPE HTML>
 <html lang = "en">
 <html>
-    <head>
-      <meta charset = "UTF-8" />
+<head>
+  <meta charset = "UTF-8" />
 
 <!-- This is my CSS & Google Fonts information -->
 
-      <link rel="stylesheet" href="../styles/main.css">
-      <link rel="preconnect" href="https://fonts.gstatic.com">
-      <link href="https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap" rel="stylesheet">
-      <link rel="preconnect" href="https://fonts.gstatic.com">
-      <link href="https://fonts.googleapis.com/css2?family=Istok+Web&display=swap" rel="stylesheet">
-      <title>Leilani Heather | Best Practices | Classes vs. IDs</title>
-  </head>
+  <link rel="stylesheet" href="../styles/main.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Istok+Web&display=swap" rel="stylesheet">
+  <title>Leilani Heather | Best Practices | Classes vs. IDs</title>
+</head>
 
 <!-- This is the top navigation of my site -->
 
-  <body>
-    <div class="grid">
-      <div class="row">
-        <div class="col-6"><a href="../index.html"><img class="logo" src="../assets/logo-blk.png" alt="Logo"></a></div>
-          <div class="col-6">
-          <ul class="nav-menu">
-              <li><a href="../index.html">Home</a></li>
-              <li><a href="../about.html">About</a></li>
-              <li><a href="../blog.html">Blog</a></li>
-            </ul>
-        </div>
+<body>
+  <div class="grid">
+    <div class="row">
+      <div class="col-6">
+        <a href="../index.html"><img class="logo" src="../assets/logo-blk.png" alt="Logo"></a>
       </div>
+
+      <div class="col-6">
+        <ul class="nav-menu">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../about.html">About</a></li>
+          <li><a href="../blog.html">Blog</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+ <!-- These are the sidebar links of my blog post page -->
+
+  <div id="contents">
+    <div id="sidebar1">
+      <div class="col-1">
+        <a href="https://github.com/leilani-heather"><span>GitHub</span></a>
+      </div>
+    </div>
+
+    <div id="sidebar2">
+      <div class="col-1">
+        <a href="http://instagram.com/ioanaleilani"><span>Instagram</span></a>
+      </div>
+    </div>
   </div>
 
  <!-- This is the main contents of my blog post page -->
 
-<div id="contents">
-  
-  <div id="sidebar1">
-    <div class="col-1">
-      <a href="https://github.com/leilani-heather"><span>GitHub</span></a>
-    </div>
-  </div>
-
-  <div id="sidebar2">
-    <div class="col-1">
-      <a href="http://instagram.com/ioanaleilani">
-        <span>Instagram</span></a>
-    </div>
-</div>
-
-
-<div id="mainContents">
-  <div class="row">
-    <div class="col-6">
-      <img class="blog-index-img-1" src="../assets/Jantar.jpg" alt="Jantar Mantar Jaipur by Leilani Heather">
-      <img class="blog-index-img-1" src="../assets/Jaipur-Arts-Center.jpg" alt="Jaipur Arts Center by Leilani Heather">
-      <img class="blog-index-img-1" src="../assets/Mantar.jpg" alt="Jantar Mantar Jaipur by Leilani Heather">
-  </div>
+  <div id="mainContents">
+    <div class="row">
+      <div class="col-6">
+        <img class="blog-index-img-1" src="../assets/Jantar.jpg" alt="Jantar Mantar Jaipur by Leilani Heather">
+        <img class="blog-index-img-1" src="../assets/Jaipur-Arts-Center.jpg" alt="Jaipur Arts Center by Leilani Heather">
+        <img class="blog-index-img-1" src="../assets/Mantar.jpg" alt="Jantar Mantar Jaipur by Leilani Heather">
+      </div>
             
-    <div class="col-6">
-      <h5 class="blog-post-category">Technical - Sprint 2</h5>
-      <h2 class="blog-post-title">Best Practices | Classes vs. IDs</h2>
-          <p class="blog-post-preview-text">When creating a website - like the one you’re visiting right now - it is very important to know about classes and IDs first.</p>
-          <p class="blog-post-text">In a nutshell, classes and IDs allow you to apply styling in a more detailed way. They will help you to target elements that you want to edit with ease and flexibility. In HTML Classes and IDs are attributes, and in CSS they are selectors.</p>
-          <p class="blog-post-text"><img class="blog-body-img" src="../assets/id-class-syntax.jpg" alt="id class syntax example"></p>
-          <p class="blog-post-text">The differences between the two are…</p>
-          <p class="blog-post-text">ID’s use the [#] symbol and are unique! This means each element can have only one ID, because otherwise it wouldn’t be unique, right? Very importantly, each page can have only feature one element with that unique ID. This means, once you use an ID on your page you shouldn’t try to use it again. Sort of like a disposable camera. IDs are helpful when you want to specify a special design feature without affecting the rest of the content with this special update. For example, the special sidebar links that feature in this site with rotated text to frame the page like a border.</p>
-          <p class="blog-post-text"><img class="blog-body-img" src="../assets/id-output.jpg" alt="ID example"></p>
-          <p class="blog-post-text">Classes use the [.] symbol and are *sadly* not unique! The upside of their ordinariness is that they’re multipurpose and reusable! You can use the same class on multiple elements, as well as multiple classes on the same element. This means that classes are hard working and have got your back! They’re very efficient and helpful when you need to style information that needs to be applied to multiple objects on a page. For example, to format the images, headings, sub headings and paragraph text of each blog post on this site.</p>
-          <p class="blog-post-text"><img class="blog-body-img" src="../assets/class-output.jpg" alt="class example"></p>
-          <p class="blog-post-text">A great analogy that I’ve read about classes vs attributes compares them to barcodes and serial numbers. Packaging for products will feature a barcode. That barcode contains and provides broad, usually universal information about the product. All products of the same type have the exact same barcode.</p>
-          <p class="blog-post-text">Products usually also have a serial number which is completely unique to any other product in the world. Unlike barcodes, serial numbers do not contain broad information about the product. They just specify details about the one product.</p>
-          <p class="blog-post-text">Following that analogy logic, information that is reusable should be kept in a class and information that is totally unique should be kept in an ID. Simple!</p>
-          <br><br><h2 class="blog-post-title">Pro Tips</h2>
-          <p class="blog-post-text">Make sure to make your classes and IDs descriptive! It makes it a lot easier to know what you’re looking at when editing! And, always remember that Classes and ID’s don’t have any styling information to them all by themselves. They require CSS to target them and apply styling. </p>
-          <a href="../blog.html"><h5 class="blog-post-readmore">Back to Blog >></h5></a>
-        </div>
+      <div class="col-6">
+        <h5 class="blog-post-category">Technical - Sprint 2</h5>
+        <h2 class="blog-post-title">Best Practices | Classes vs. IDs</h2>
+        <p class="blog-post-preview-text">
+          When creating a website - like the one you’re visiting right now - it is very important to know about classes and IDs first.
+        </p>
+        <p class="blog-post-text">
+          In a nutshell, classes and IDs allow you to apply styling in a more detailed way. They will help you to target elements that you 
+          want to edit with ease and flexibility. In HTML Classes and IDs are attributes, and in CSS they are selectors.
+        </p>
+        <p class="blog-post-text">
+          <img class="blog-body-img" src="../assets/id-class-syntax.jpg" alt="id class syntax example">
+        </p>
+        <p class="blog-post-text">
+          The differences between the two are…
+        </p>
+        <p class="blog-post-text">
+          ID’s use the [#] symbol and are unique! This means each element can have only one ID, because otherwise it wouldn’t be unique, right? 
+          Very importantly, each page can have only feature one element with that unique ID. This means, once you use an ID on your page you shouldn’t try 
+          to use it again. Sort of like a disposable camera. IDs are helpful when you want to specify a special design feature without affecting the rest of 
+          the content with this special update. For example, the special sidebar links that feature in this site with rotated text to frame the page like a border.
+        </p>
+        <p class="blog-post-text">
+          <img class="blog-body-img" src="../assets/id-output.jpg" alt="ID example">
+        </p>
+        <p class="blog-post-text">
+          Classes use the [.] symbol and are *sadly* not unique! The upside of their ordinariness is that they’re multipurpose and reusable! You can use the same 
+          class on multiple elements, as well as multiple classes on the same element. This means that classes are hard working and have got your back! They’re 
+          very efficient and helpful when you need to style information that needs to be applied to multiple objects on a page. For example, to format the images, 
+          headings, sub headings and paragraph text of each blog post on this site.
+        </p>
+        <p class="blog-post-text">
+          <img class="blog-body-img" src="../assets/class-output.jpg" alt="class example">
+        </p>
+        <p class="blog-post-text">
+          A great analogy that I’ve read about classes vs attributes compares them to barcodes and serial numbers. Packaging for products will feature a barcode. 
+          That barcode contains and provides broad, usually universal information about the product. All products of the same type have the exact same barcode.
+        </p>
+        <p class="blog-post-text">
+          Products usually also have a serial number which is completely unique to any other product in the world. Unlike barcodes, serial numbers do not contain 
+          broad information about the product. They just specify details about the one product.
+        </p>
+        <p class="blog-post-text">
+          Following that analogy logic, information that is reusable should be kept in a class and information that is totally unique should be kept in an ID. 
+          Simple!
+        </p>
+        <br><br><h2 class="blog-post-title">Pro Tips</h2>
+        <p class="blog-post-text">
+          Make sure to make your classes and IDs descriptive! It makes it a lot easier to know what you’re looking at when editing! And, always remember that 
+          Classes and ID’s don’t have any styling information to them all by themselves. They require CSS to target them and apply styling.
+        </p>
+        <a href="../blog.html"><h5 class="blog-post-readmore">Back to Blog >></h5></a>
       </div>
     </div>
   </div>
 
-      
  <!-- This is the footer of my blog post page -->      
 
- <div class="row">
-    <div class="col-12"><h6 class="footer">Copyright © 2020 Leilani Heather. All rights reserved.</h6>
-        </div>
-      </div>
+  <div class="row">
+    <div class="col-12">
+      <h6 class="footer">Copyright © 2020 Leilani Heather. All rights reserved.</h6>
+    </div>
+  </div>
 
 <!-- This is the end of my blog post page -->  
   
-  </body>
+</body>
 </html>
