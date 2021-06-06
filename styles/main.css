@@ -647,4 +647,25 @@ margin-right: auto;
     margin-left: 0%;
     margin-right: 30%;
   }
+  p.blog-index-preview-text {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+  
+  h2.blog-index-title {
+    text-align: center;
+  }
+  
+  h5.blog-index-category {
+    text-align: center;
+    
+  }
+  
+  h5.blog-index-readmore {
+    text-align: center;
+  }
+  
 }
