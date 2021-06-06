@@ -391,8 +391,8 @@ margin-right: auto;
     text-align: center;
     display: block;
     margin-top: 0%;
-    margin-left: 0%;
-    margin-right: 0%;
+    margin-left: 20%;
+    margin-right: 20%;
   }
   
   p.blog-post-text {
@@ -418,8 +418,8 @@ margin-right: auto;
     display: block;
     text-align: center;
     margin-top: 0%;
-    margin-left: 0%;
-    margin-right: 0%;
+    margin-left: 20%;
+    margin-right: 20%;
   }
   
   
@@ -428,8 +428,8 @@ margin-right: auto;
     display: block;
     text-align: center;
     margin-top: 10%;
-    margin-left: 0%;
-    margin-right: 0%;
+    margin-left: 20%;
+    margin-right: 20%;
   }
   
   h5.blog-post-readmore {
@@ -437,9 +437,22 @@ margin-right: auto;
     display: block;
     text-align: center;
     margin-top: 10%;
-    margin-left: 0%;
-    margin-right: 0%;
+    margin-left: 20%;
+    margin-right: 20%;
   }
+
+  p.blog-index-preview-text {
+    display: block;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  
+  h2.blog-index-title {
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
 
 }
 
@@ -478,8 +491,8 @@ margin-right: auto;
     text-align: center;
     display: block;
     margin-top: 0%;
-    margin-left: 0%;
-    margin-right: 0%;
+    margin-left: 20%;
+    margin-right: 20%;
   }
   
   p.blog-post-text {
@@ -505,8 +518,8 @@ margin-right: auto;
     display: block;
     text-align: center;
     margin-top: 0%;
-    margin-left: 0%;
-    margin-right: 0%;
+    margin-left: 20%;
+    margin-right: 20%;
   }
   
   
@@ -515,8 +528,8 @@ margin-right: auto;
     display: block;
     text-align: center;
     margin-top: 10%;
-    margin-left: 0%;
-    margin-right: 0%;
+    margin-left: 20%;
+    margin-right: 20%;
   }
   
   h5.blog-post-readmore {
@@ -524,12 +537,21 @@ margin-right: auto;
     display: block;
     text-align: center;
     margin-top: 10%;
-    margin-left: 0%;
-    margin-right: 0%;
+    margin-left: 20%;
+    margin-right: 20%;
   }
 
-
-
+  p.blog-index-preview-text {
+    display: block;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  
+  h2.blog-index-title {
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
 }
 
 @media screen and (min-width: 1200px) {
