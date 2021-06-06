@@ -441,18 +441,11 @@ margin-right: auto;
     margin-right: 20%;
   }
 
-  p.blog-index-preview-text {
-    display: block;
-    margin-left: 5%;
-    margin-right: 5%;
-  }
-  
   h2.blog-index-title {
     text-align: center;
     margin-left: 5%;
     margin-right: 5%;
   }
-
 
 }
 
@@ -541,11 +534,6 @@ margin-right: auto;
     margin-right: 20%;
   }
 
-  p.blog-index-preview-text {
-    display: block;
-    margin-left: 5%;
-    margin-right: 5%;
-  }
   
   h2.blog-index-title {
     text-align: center;
